@@ -1,0 +1,103 @@
+<div class="row-layout cards">
+  <igx-card type="outlined" class="card">
+    <igx-card-media height="120px">
+      <img src="/assets/theme-light.svg" class="image" />
+    </igx-card-media>
+    <igx-card-header>
+      <h3 igxCardHeaderTitle>
+        Card Title
+      </h3>
+      <h5 igxCardHeaderSubtitle>
+        This is the card subtitle
+      </h5>
+    </igx-card-header>
+    <igx-card-actions [reverse]="true" class="actions-content">
+      <button igxButton="flat" igxRipple class="button">
+        Button
+      </button>
+      <button igxButton="icon" igxRipple class="button_1">
+        <igx-icon>
+          favorite
+        </igx-icon>
+      </button>
+      <button igxButton="icon" igxRipple class="button_1">
+        <igx-icon>
+          share
+        </igx-icon>
+      </button>
+    </igx-card-actions>
+  </igx-card>
+  <igx-card type="outlined" class="card">
+    <igx-card-media height="120px">
+      <img src="/assets/theme-dark.svg" class="image" />
+    </igx-card-media>
+    <igx-card-header>
+      <h3 igxCardHeaderTitle>
+        Card Title
+      </h3>
+      <h5 igxCardHeaderSubtitle>
+        This is the card subtitle
+      </h5>
+    </igx-card-header>
+    <igx-card-actions [reverse]="true" class="actions-content">
+      <button igxButton="flat" igxRipple class="button">
+        Button
+      </button>
+      <button igxButton="icon" igxRipple class="button_1">
+        <igx-icon>
+          favorite
+        </igx-icon>
+      </button>
+      <button igxButton="icon" igxRipple class="button_1">
+        <igx-icon>
+          share
+        </igx-icon>
+      </button>
+    </igx-card-actions>
+  </igx-card>
+  <igx-card type="outlined" class="card">
+    <igx-card-media height="120px">
+      <img src="/assets/design system.png" class="image" />
+    </igx-card-media>
+    <igx-card-header>
+      <h3 igxCardHeaderTitle>
+        Card Title
+      </h3>
+      <h5 igxCardHeaderSubtitle>
+        This is the card subtitle
+      </h5>
+    </igx-card-header>
+    <igx-card-actions [reverse]="true" class="actions-content">
+      <button igxButton="flat" igxRipple class="button">
+        Button
+      </button>
+      <button igxButton="icon" igxRipple class="button_1">
+        <igx-icon>
+          favorite
+        </igx-icon>
+      </button>
+      <button igxButton="icon" igxRipple class="button_1">
+        <igx-icon>
+          share
+        </igx-icon>
+      </button>
+    </igx-card-actions>
+  </igx-card>
+</div>
+<div class="column-layout group">
+  <h6 class="h6">
+    Both issues REPRODUCED IN: Blazor and Web Components generated apps
+  </h6>
+  <div class="row-layout group_1">
+    <p class="igx-typography__subtitle-1 text">
+      If the positioning of the actions is reversed, when generated, Web Comp. and Blazor reverses them back to the original place.
+    </p>
+    <igx-badge type="success" value="BUG CREATED" class="badge"></igx-badge>
+  </div>
+  <div class="row-layout group_1">
+    <p class="igx-typography__subtitle-1 text">
+      Action icons look justified, instead of being aligned to the left or right
+    </p>
+    <igx-badge type="success" value="BUG CREATED" class="badge"></igx-badge>
+  </div>
+</div>

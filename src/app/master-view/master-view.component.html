@@ -1,0 +1,83 @@
+<igx-navbar class="navbar">
+  <igx-navbar-action>
+    <button igxButton="icon" igxRipple [igxToggleAction]="navDrawer" class="button">
+      <igx-icon>
+        menu
+      </igx-icon>
+    </button>
+  </igx-navbar-action>
+  <igx-navbar-title>
+    <p class="igx-typography__subtitle-2 text">
+      BUGS IN SAMPLES
+    </p>
+  </igx-navbar-title>
+</igx-navbar>
+<div class="row-layout group">
+  <igx-nav-drawer [isOpen]="true" [pin]="true" [pinThreshold]="1024" width="240px" #navDrawer class="nav-drawer">
+    <ng-template igxDrawer>
+      <div igxDrawerItem igxRipple routerLink="/master-view/buttons">
+        <igx-icon class="icon">
+          bug_report
+        </igx-icon>
+        <span>Buttons</span>
+      </div>
+      <div igxDrawerItem igxRipple routerLink="/master-view/button-styles">
+        <igx-icon class="icon">
+          bug_report
+        </igx-icon>
+        <span>Button Styles</span>
+      </div>
+      <div igxDrawerItem igxRipple routerLink="/master-view/space-between">
+        <igx-icon class="icon">
+          bug_report
+        </igx-icon>
+        <span>Space Between</span>
+      </div>
+      <div igxDrawerItem igxRipple routerLink="/master-view/cards-opacity">
+        <igx-icon class="icon">
+          bug_report
+        </igx-icon>
+        <span>Cards Opacity</span>
+      </div>
+      <div igxDrawerItem igxRipple routerLink="/master-view/card-actions">
+        <igx-icon class="icon">
+          bug_report
+        </igx-icon>
+        <span>Card Action Buttons</span>
+      </div>
+      <div igxDrawerItem igxRipple routerLink="/master-view/chips">
+        <igx-icon class="icon">
+          bug_report
+        </igx-icon>
+        <span>Chips</span>
+      </div>
+      <div igxDrawerItem igxRipple routerLink="/master-view/dialog">
+        <igx-icon class="icon">
+          bug_report
+        </igx-icon>
+        <span>Dialogs</span>
+      </div>
+      <div igxDrawerItem igxRipple routerLink="/master-view/grid-in-tab-layout">
+        <igx-icon class="icon">
+          bug_report
+        </igx-icon>
+        <span>Grid in Tab Layout</span>
+      </div>
+      <div igxDrawerItem igxRipple routerLink="/master-view/input-group">
+        <igx-icon class="icon">
+          bug_report
+        </igx-icon>
+        <span>Input Group</span>
+      </div>
+      <div igxDrawerItem igxRipple routerLink="/master-view2/resizing-issue">
+        <igx-icon class="icon">
+          bug_report
+        </igx-icon>
+        <span>Scrollbars Issue</span>
+      </div>
+    </ng-template>
+  </igx-nav-drawer>
+  <div class="view-container">
+    <router-outlet></router-outlet>
+  </div>
+</div>

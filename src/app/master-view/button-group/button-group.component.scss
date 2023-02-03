@@ -1,0 +1,35 @@
+:host {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: flex-start;
+  gap: 24px;
+}
+.column-layout {
+  display: flex;
+  flex-direction: column;
+}
+.group {
+  justify-content: center;
+  align-items: center;
+  align-content: flex-start;
+  gap: 24px;
+  position: relative;
+  padding: 16px;
+  min-width: 50px;
+  min-height: 50px;
+}
+.row-layout {
+  display: flex;
+}
+.button-group {
+  height: max-content;
+  min-width: min-content;
+}
+.button-group_1 {
+  height: max-content;
+  min-width: min-content;
+  flex-shrink: 0;
+}

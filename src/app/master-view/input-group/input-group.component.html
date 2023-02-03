@@ -1,0 +1,80 @@
+<div class="column-layout container">
+  <div class="row-layout group">
+    <div class="row-layout group_1">
+      <p class="igx-typography__subtitle-2 text">
+        Box
+      </p>
+    </div>
+    <igx-input-group type="box" class="input">
+      <igx-prefix>
+        <igx-icon class="icon">
+          person
+        </igx-icon>
+      </igx-prefix>
+      <input type="text" placeholder="and Placeholder" igxInput />
+      <label igxLabel>Label</label>
+    </igx-input-group>
+    <igx-input-group type="box" class="input">
+      <igx-suffix>
+        <igx-icon class="icon">
+          clear
+        </igx-icon>
+      </igx-suffix>
+      <input type="text" [(ngModel)]="value" igxInput />
+      <label igxLabel>Task Name</label>
+    </igx-input-group>
+    <igx-input-group type="box" class="input">
+      <igx-prefix>
+        <igx-icon class="icon">
+          person
+        </igx-icon>
+      </igx-prefix>
+      <igx-suffix>
+        <igx-icon class="icon">
+          clear
+        </igx-icon>
+      </igx-suffix>
+      <input type="text" [(ngModel)]="value1" [disabled]="true" igxInput />
+      <label igxLabel>Task Name</label>
+    </igx-input-group>
+  </div>
+  <div class="row-layout group">
+    <div class="row-layout group_1">
+      <p class="igx-typography__subtitle-2 text">
+        Outline
+      </p>
+    </div>
+    <igx-input-group type="border" class="input">
+      <igx-prefix>
+        <igx-icon class="icon">
+          person
+        </igx-icon>
+      </igx-prefix>
+      <input type="text" placeholder="and Placeholder" igxInput />
+      <label igxLabel>Label</label>
+    </igx-input-group>
+    <igx-input-group type="border" class="input">
+      <igx-suffix>
+        <igx-icon class="icon">
+          clear
+        </igx-icon>
+      </igx-suffix>
+      <input type="text" [(ngModel)]="value" igxInput />
+      <label igxLabel>Task Name</label>
+    </igx-input-group>
+    <igx-input-group type="border" class="input">
+      <igx-prefix>
+        <igx-icon class="icon">
+          person
+        </igx-icon>
+      </igx-prefix>
+      <igx-suffix>
+        <igx-icon class="icon">
+          clear
+        </igx-icon>
+      </igx-suffix>
+      <input type="text" [(ngModel)]="value1" [disabled]="true" igxInput />
+      <label igxLabel>Task Name</label>
+    </igx-input-group>
+  </div>
+</div>

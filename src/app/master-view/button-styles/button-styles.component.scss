@@ -1,0 +1,48 @@
+:host {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: flex-start;
+  gap: 24px;
+}
+.column-layout {
+  display: flex;
+  flex-direction: column;
+}
+.group {
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+  gap: 16px;
+  position: relative;
+  min-width: 50px;
+  min-height: 50px;
+}
+.row-layout {
+  display: flex;
+}
+.group_1 {
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+  gap: 16px;
+  position: relative;
+  min-width: 50px;
+}
+.text {
+  height: max-content;
+  min-width: min-content;
+}
+.button {
+  height: max-content;
+  min-width: min-content;
+  flex-shrink: 0;
+}
+.dropdown {
+  left: 0;
+  top: 0;
+  position: absolute;
+  height: max-content;
+  min-width: min-content;
+}

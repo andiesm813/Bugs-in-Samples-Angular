@@ -1,0 +1,190 @@
+<div class="column-layout group">
+  <button igxButton="raised" igxRipple [igxToggleAction]="simpleDialog" class="user-input">
+    DIALOG JUST BUTTONS
+  </button>
+  <button igxButton="raised" igxRipple [igxToggleAction]="dialogMinWidth" class="user-input">
+    DIALOG WITH MIN WIDTH
+  </button>
+  <div class="row-layout cards">
+    <igx-card type="outlined" class="card">
+      <igx-card-media height="120px">
+        <img src="/assets/theme-light.svg" class="image" />
+      </igx-card-media>
+      <igx-card-header>
+        <h3 igxCardHeaderTitle>
+          Card Title
+        </h3>
+        <h5 igxCardHeaderSubtitle>
+          This is the card subtitle
+        </h5>
+      </igx-card-header>
+      <igx-card-actions class="actions-content">
+        <button igxButton="flat" igxRipple class="user-input">
+          Button
+        </button>
+        <button igxButton="icon" igxRipple>
+          <igx-icon>
+            favorite
+          </igx-icon>
+        </button>
+        <button igxButton="icon" igxRipple>
+          <igx-icon>
+            share
+          </igx-icon>
+        </button>
+      </igx-card-actions>
+    </igx-card>
+    <igx-card type="outlined" class="card">
+      <igx-card-media height="120px">
+        <img src="/assets/theme-dark.svg" class="image" />
+      </igx-card-media>
+      <igx-card-header>
+        <h3 igxCardHeaderTitle>
+          Card Title
+        </h3>
+        <h5 igxCardHeaderSubtitle>
+          This is the card subtitle
+        </h5>
+      </igx-card-header>
+      <igx-card-actions class="actions-content">
+        <button igxButton="flat" igxRipple class="user-input">
+          Button
+        </button>
+        <button igxButton="icon" igxRipple>
+          <igx-icon>
+            favorite
+          </igx-icon>
+        </button>
+        <button igxButton="icon" igxRipple>
+          <igx-icon>
+            share
+          </igx-icon>
+        </button>
+      </igx-card-actions>
+    </igx-card>
+    <igx-card type="outlined" class="card">
+      <igx-card-media height="120px">
+        <img src="/assets/design system.png" class="image" />
+      </igx-card-media>
+      <igx-card-header>
+        <h3 igxCardHeaderTitle>
+          Card Title
+        </h3>
+        <h5 igxCardHeaderSubtitle>
+          This is the card subtitle
+        </h5>
+      </igx-card-header>
+      <igx-card-actions class="actions-content">
+        <button igxButton="flat" igxRipple class="user-input">
+          Button
+        </button>
+        <button igxButton="icon" igxRipple>
+          <igx-icon>
+            favorite
+          </igx-icon>
+        </button>
+        <button igxButton="icon" igxRipple>
+          <igx-icon>
+            share
+          </igx-icon>
+        </button>
+      </igx-card-actions>
+    </igx-card>
+  </div>
+</div>
+<igx-dialog [closeOnOutsideSelect]="true" [closeOnEscape]="true" #dialogMinWidth>
+  <igx-dialog-title>
+    <h5>
+      Custom Dialog with Min Width
+    </h5>
+  </igx-dialog-title>
+  <ng-container>
+    <div class="column-layout group_1">
+      <h5 class="content">
+        Heading
+      </h5>
+      <igx-input-group type="box" class="user-input">
+        <input type="text" igxInput />
+        <label igxLabel>Label/Placeholder</label>
+      </igx-input-group>
+      <igx-input-group type="box" class="user-input">
+        <input type="text" igxInput />
+        <label igxLabel>Label/Placeholder</label>
+      </igx-input-group>
+      <div class="row-layout cards">
+        <igx-input-group type="box" class="input">
+          <input type="text" igxInput />
+          <label igxLabel>Label/Placeholder</label>
+        </igx-input-group>
+        <igx-input-group type="box" class="input">
+          <input type="text" igxInput />
+          <label igxLabel>Label/Placeholder</label>
+        </igx-input-group>
+        <igx-input-group type="box" class="input">
+          <input type="text" igxInput />
+          <label igxLabel>Label/Placeholder</label>
+        </igx-input-group>
+      </div>
+    </div>
+  </ng-container>
+  <igx-dialog-actions>
+    <button igxButton="raised" igxRipple class="user-input">
+      Add Product
+    </button>
+    <button igxButton="flat" igxRipple class="user-input">
+      Cancel
+    </button>
+  </igx-dialog-actions>
+</igx-dialog>
+<igx-dialog [closeOnOutsideSelect]="true" [closeOnEscape]="true" #simpleDialog>
+  <igx-dialog-title>
+    <h5>
+      Confirmation
+    </h5>
+  </igx-dialog-title>
+  <ng-container>
+    <p class="content">
+      This is a simple custom dialog
+    </p>
+  </ng-container>
+  <igx-dialog-actions>
+    <button igxButton="raised" igxRipple class="user-input">
+      ADD PRODUCT
+    </button>
+    <button igxButton="outlined" igxRipple class="user-input">
+      CANCEL
+    </button>
+  </igx-dialog-actions>
+</igx-dialog>
+<div class="column-layout group_2">
+  <h6 class="h6">
+    ISSUES
+  </h6>
+  <div class="row-layout group_3">
+    <p class="igx-typography__subtitle-1 text">
+      The font of the title shown in AppBuilder preview doesnt match the generated font 
+    </p>
+    <h6 class="h6">
+      REPRODUCED IN: Angular and Web Components generated apps
+    </h6>
+    <igx-badge type="success" value="BUG CREATED" class="badge"></igx-badge>
+  </div>
+  <div class="row-layout group_3">
+    <p class="igx-typography__subtitle-1 text">
+      Action buttons dont have spacing between them
+    </p>
+    <h6 class="h6">
+      REPRODUCED IN: AppBuilder Edit &amp; Preview
+    </h6>
+    <igx-badge type="success" value="BUG CREATED" class="badge"></igx-badge>
+  </div>
+  <div class="row-layout group_3">
+    <p class="igx-typography__subtitle-1 text">
+      Dialog is cropped
+    </p>
+    <h6 class="h6">
+      REPRODUCED IN: Web Components generated app
+    </h6>
+    <igx-badge type="success" value="BUG CREATED" class="badge"></igx-badge>
+  </div>
+</div>
