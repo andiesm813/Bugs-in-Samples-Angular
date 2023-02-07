@@ -16,7 +16,7 @@
   justify-content: flex-start;
   align-items: stretch;
   align-content: flex-start;
-  gap: 24px;
+  gap: 32px;
   position: relative;
   padding: 24px;
   min-width: 50px;
@@ -43,6 +43,24 @@
   min-width: 80px;
   min-height: 50px;
 }
+.group_2 {
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+  gap: 16px;
+  position: relative;
+  min-width: 50px;
+  min-height: 50px;
+}
+.group_3 {
+  justify-content: flex-start;
+  align-items: center;
+  align-content: flex-start;
+  gap: 16px;
+  position: relative;
+  min-width: 50px;
+  min-height: 50px;
+}
 .text {
   height: max-content;
   min-width: min-content;
@@ -52,7 +70,7 @@
   width: 24px;
   height: 24px;
 }
-.input {
+.user-input {
   height: max-content;
   min-width: min-content;
   flex-shrink: 0;

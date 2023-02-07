@@ -60,23 +60,13 @@
   min-height: 50px;
 }
 .group_3 {
-  background-color: #24272B;
-  justify-content: flex-start;
-  align-items: stretch;
+  justify-content: center;
+  align-items: center;
   align-content: flex-start;
-  gap: 8px;
+  gap: 24px;
   position: relative;
-  padding: 24px;
   min-width: 50px;
   min-height: 50px;
-}
-.group_4 {
-  justify-content: flex-start;
-  align-items: stretch;
-  align-content: flex-start;
-  gap: 16px;
-  position: relative;
-  min-width: 50px;
 }
 .button {
   height: max-content;
@@ -92,6 +82,10 @@
 .user-input {
   height: max-content;
   min-width: min-content;
+}
+.button_2 {
+  width: max-content;
+  height: max-content;
 }
 .body-content {
   min-width: 50px;
@@ -109,21 +103,7 @@
   width: 24px;
   height: 24px;
 }
-.h6 {
-  color: hsla(var(--igx-surface-500));
-  height: max-content;
-  min-width: min-content;
-}
-.text {
-  color: hsla(var(--igx-grays-300));
-  height: max-content;
-  min-width: min-content;
-}
 .list {
   height: max-content;
   flex-shrink: 0;
-}
-.badge {
-  width: max-content;
-  height: max-content;
 }

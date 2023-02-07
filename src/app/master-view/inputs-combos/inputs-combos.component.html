@@ -1,0 +1,219 @@
+<div class="column-layout container">
+  <div class="row-layout group">
+    <div class="row-layout group_1">
+      <p class="igx-typography__subtitle-2 text">
+        Box
+      </p>
+    </div>
+    <igx-input-group type="box" class="user-input">
+      <igx-prefix>
+        <igx-icon class="icon">
+          person
+        </igx-icon>
+      </igx-prefix>
+      <input type="text" placeholder="and Placeholder" igxInput />
+      <label igxLabel>Label</label>
+    </igx-input-group>
+    <igx-input-group type="box" class="user-input">
+      <igx-suffix>
+        <igx-icon class="icon">
+          clear
+        </igx-icon>
+      </igx-suffix>
+      <input type="text" [(ngModel)]="value" igxInput />
+      <label igxLabel>Task Name</label>
+    </igx-input-group>
+    <igx-input-group type="box" class="user-input">
+      <igx-prefix>
+        <igx-icon class="icon">
+          person
+        </igx-icon>
+      </igx-prefix>
+      <igx-suffix>
+        <igx-icon class="icon">
+          clear
+        </igx-icon>
+      </igx-suffix>
+      <input type="text" [(ngModel)]="value1" [disabled]="true" igxInput />
+      <label igxLabel>Task Name</label>
+    </igx-input-group>
+  </div>
+  <div class="row-layout group">
+    <div class="row-layout group_1">
+      <p class="igx-typography__subtitle-2 text">
+        Outline
+      </p>
+    </div>
+    <igx-input-group type="border" class="user-input">
+      <igx-prefix>
+        <igx-icon class="icon">
+          person
+        </igx-icon>
+      </igx-prefix>
+      <input type="text" placeholder="and Placeholder" igxInput />
+      <label igxLabel>Label</label>
+    </igx-input-group>
+    <igx-input-group type="border" class="user-input">
+      <igx-suffix>
+        <igx-icon class="icon">
+          clear
+        </igx-icon>
+      </igx-suffix>
+      <input type="text" [(ngModel)]="value" igxInput />
+      <label igxLabel>Task Name</label>
+    </igx-input-group>
+    <igx-input-group type="border" class="user-input">
+      <igx-prefix>
+        <igx-icon class="icon">
+          person
+        </igx-icon>
+      </igx-prefix>
+      <igx-suffix>
+        <igx-icon class="icon">
+          clear
+        </igx-icon>
+      </igx-suffix>
+      <input type="text" [(ngModel)]="value1" [disabled]="true" igxInput />
+      <label igxLabel>Task Name</label>
+    </igx-input-group>
+  </div>
+  <div class="column-layout group_2">
+    <p class="igx-typography__subtitle-2 text">
+      SELECT COMPONENT
+    </p>
+    <div class="row-layout group_3">
+      <div class="row-layout group_1">
+        <p class="igx-typography__subtitle-2 text">
+          Box
+        </p>
+      </div>
+      <igx-select type="box" placeholder="Select Year" class="user-input">
+        <igx-select-item value="1">
+          Option 1
+        </igx-select-item>
+        <igx-select-item value="2">
+          Option 2
+        </igx-select-item>
+        <igx-select-item value="3">
+          Option 3
+        </igx-select-item>
+        <igx-select-item value="4">
+          Option 4
+        </igx-select-item>
+        <label igxLabel>Year</label>
+      </igx-select>
+      <igx-select type="box" placeholder="Select Year" value="1" class="user-input">
+        <igx-select-item value="1" [selected]="true">
+          Option 1
+        </igx-select-item>
+        <igx-select-item value="2">
+          Option 2
+        </igx-select-item>
+        <igx-select-item value="3">
+          Option 3
+        </igx-select-item>
+        <igx-select-item value="4">
+          Option 4
+        </igx-select-item>
+        <label igxLabel>Year</label>
+      </igx-select>
+      <igx-select type="box" placeholder="Select Year" [disabled]="true" class="user-input">
+        <igx-select-item value="1">
+          Option 1
+        </igx-select-item>
+        <igx-select-item value="2">
+          Option 2
+        </igx-select-item>
+        <igx-select-item value="3">
+          Option 3
+        </igx-select-item>
+        <igx-select-item value="4">
+          Option 4
+        </igx-select-item>
+        <label igxLabel>Year</label>
+      </igx-select>
+      <igx-select type="box" placeholder="Select Year" value="1" [disabled]="true" class="user-input">
+        <igx-select-item value="1" [selected]="true">
+          Option 1
+        </igx-select-item>
+        <igx-select-item value="2">
+          Option 2
+        </igx-select-item>
+        <igx-select-item value="3">
+          Option 3
+        </igx-select-item>
+        <igx-select-item value="4">
+          Option 4
+        </igx-select-item>
+        <label igxLabel>Year</label>
+      </igx-select>
+    </div>
+    <div class="row-layout group_3">
+      <div class="row-layout group_1">
+        <p class="igx-typography__subtitle-2 text">
+          Outline
+        </p>
+      </div>
+      <igx-select type="border" placeholder="Select Year" class="user-input">
+        <igx-select-item value="1">
+          Option 1
+        </igx-select-item>
+        <igx-select-item value="2">
+          Option 2
+        </igx-select-item>
+        <igx-select-item value="3">
+          Option 3
+        </igx-select-item>
+        <igx-select-item value="4">
+          Option 4
+        </igx-select-item>
+        <label igxLabel>Year</label>
+      </igx-select>
+      <igx-select type="border" placeholder="Select Year" value="1" class="user-input">
+        <igx-select-item value="1" [selected]="true">
+          Option 1
+        </igx-select-item>
+        <igx-select-item value="2">
+          Option 2
+        </igx-select-item>
+        <igx-select-item value="3">
+          Option 3
+        </igx-select-item>
+        <igx-select-item value="4">
+          Option 4
+        </igx-select-item>
+        <label igxLabel>Year</label>
+      </igx-select>
+      <igx-select type="border" placeholder="Select Year" [disabled]="true" class="user-input">
+        <igx-select-item value="1">
+          Option 1
+        </igx-select-item>
+        <igx-select-item value="2">
+          Option 2
+        </igx-select-item>
+        <igx-select-item value="3">
+          Option 3
+        </igx-select-item>
+        <igx-select-item value="4">
+          Option 4
+        </igx-select-item>
+        <label igxLabel>Year</label>
+      </igx-select>
+      <igx-select type="border" placeholder="Select Year" value="1" [disabled]="true" class="user-input">
+        <igx-select-item value="1" [selected]="true">
+          Option 1
+        </igx-select-item>
+        <igx-select-item value="2">
+          Option 2
+        </igx-select-item>
+        <igx-select-item value="3">
+          Option 3
+        </igx-select-item>
+        <igx-select-item value="4">
+          Option 4
+        </igx-select-item>
+        <label igxLabel>Year</label>
+      </igx-select>
+    </div>
+  </div>
+</div>
