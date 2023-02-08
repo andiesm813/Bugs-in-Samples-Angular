@@ -21,16 +21,6 @@
   min-width: 50px;
   min-height: 50px;
 }
-.row-layout {
-  display: flex;
-}
-.group_1 {
-  justify-content: flex-start;
-  align-items: center;
-  align-content: flex-start;
-  width: max-content;
-  height: max-content;
-}
 .navbar {
   --igx-navbar-background: hsla(var(--igx-secondary-700));
   --igx-navbar-text-color: hsla(var(--igx-surface-500));
@@ -39,17 +29,25 @@
 }
 .navbar_1 {
   --igx-navbar-background: hsla(var(--igx-surface-500));
+  --igx-navbar-text-color: hsla(var(--igx-grays-800));
   height: max-content;
+  min-width: min-content;
 }
 .button {
   color: hsla(var(--igx-surface-500));
 }
 .button_1 {
-  color: hsla(var(--igx-surface-500));
+  color: hsla(var(--igx-secondary-900));
+  background-color: hsla(var(--igx-surface-500));
   height: max-content;
   min-width: min-content;
 }
 .button_2 {
+  color: hsla(var(--igx-surface-500));
+  height: max-content;
+  min-width: min-content;
+}
+.button_3 {
   height: max-content;
   min-width: min-content;
 }
