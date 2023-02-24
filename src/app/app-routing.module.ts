@@ -13,6 +13,7 @@ import { ChipsComponent } from './chips/chips.component';
 import { DialogComponent } from './dialog/dialog.component';
 import { GridInTabLayoutComponent } from './grid-in-tab-layout/grid-in-tab-layout.component';
 import { InputsCombosComponent } from './inputs-combos/inputs-combos.component';
+import { ListComponent } from './list/list.component';
 import { NavigationBarComponent } from './navigation-bar/navigation-bar.component';
 import { SpaceBetweenComponent } from './space-between/space-between.component';
 
@@ -28,6 +29,7 @@ export const routes: Routes = [
   { path: 'dialog', component: DialogComponent, data: { text: 'Dialog' } },
   { path: 'grid-in-tab-layout', component: GridInTabLayoutComponent, data: { text: 'Grid in Tab Layout' } },
   { path: 'inputs-combos', component: InputsCombosComponent, data: { text: 'Inputs & Combos' } },
+  { path: 'list', component: ListComponent, data: { text: 'List' } },
   { path: 'navigation-bar', component: NavigationBarComponent, data: { text: 'Navigation Bar' } },
   { path: 'space-between', component: SpaceBetweenComponent, data: { text: 'Space Between' } },
   { path: '**', component: PageNotFoundComponent } // must always be last

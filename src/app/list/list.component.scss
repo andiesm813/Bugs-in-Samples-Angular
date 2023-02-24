@@ -1,0 +1,38 @@
+:host {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+  overflow: auto;
+}
+.column-layout {
+  display: flex;
+  flex-direction: column;
+}
+.container {
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+  gap: 32px;
+  position: relative;
+  padding: 24px;
+  min-width: 50px;
+  min-height: 50px;
+  flex-grow: 1;
+  flex-shrink: 0;
+}
+.list {
+  height: max-content;
+}
+.avatar {
+  --background: none;
+  --ig-gray-400: transparent;
+}
+.icon {
+  font-size: 24px;
+  width: 24px;
+  height: 24px;
+}

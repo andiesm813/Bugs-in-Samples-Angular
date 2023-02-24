@@ -14,6 +14,7 @@ import { ChipsComponent } from './chips/chips.component';
 import { DialogComponent } from './dialog/dialog.component';
 import { GridInTabLayoutComponent } from './grid-in-tab-layout/grid-in-tab-layout.component';
 import { InputsCombosComponent } from './inputs-combos/inputs-combos.component';
+import { ListComponent } from './list/list.component';
 import { NavigationBarComponent } from './navigation-bar/navigation-bar.component';
 import { SpaceBetweenComponent } from './space-between/space-between.component';
 
@@ -29,6 +30,7 @@ import { SpaceBetweenComponent } from './space-between/space-between.component';
     DialogComponent,
     GridInTabLayoutComponent,
     InputsCombosComponent,
+    ListComponent,
     NavigationBarComponent,
     SpaceBetweenComponent
   ],
