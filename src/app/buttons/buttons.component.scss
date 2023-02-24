@@ -87,6 +87,19 @@
   width: max-content;
   height: max-content;
 }
+.button_3 {
+  color: hsla(var(--igx-surface-500));
+  background-color: #6C429D;
+  height: max-content;
+  min-width: min-content;
+  flex-shrink: 0;
+}
+.button_4 {
+  color: #6C429D;
+  height: max-content;
+  min-width: min-content;
+  flex-shrink: 0;
+}
 .body-content {
   min-width: 50px;
   min-height: 50px;
@@ -97,6 +110,7 @@
 }
 .avatar {
   --background: none;
+  --ig-gray-400: transparent;
 }
 .icon {
   font-size: 24px;
