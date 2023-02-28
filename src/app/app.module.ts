@@ -4,7 +4,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ButtonsComponent } from './buttons/buttons.component';
-import { IgxButtonModule, IgxRippleModule, IgxIconModule, IgxToggleModule, IgxDropDownModule, IgxListModule, IgxAvatarModule, IgxCardModule, IgxDialogModule, IgxButtonGroupModule, IgxBadgeModule, IgxChipsModule, IgxInputGroupModule, IgxGridModule, IgxTabsModule, IgxSelectModule, IgxNavbarModule, IgxNavigationDrawerModule } from '@infragistics/igniteui-angular';
+import { IgxButtonModule, IgxRippleModule, IgxIconModule, IgxToggleModule, IgxDropDownModule, IgxListModule, IgxAvatarModule, IgxCardModule, IgxDialogModule, IgxButtonGroupModule, IgxBadgeModule, IgxChipsModule, IgxInputGroupModule, IgxGridModule, IgxTabsModule, IgxSelectModule, IgxNavbarModule, IgcFormsModule, IgxNavigationDrawerModule } from '@infragistics/igniteui-angular';
 import { FormsModule } from '@angular/forms';
 import { ButtonGroupComponent } from './button-group/button-group.component';
 import { ButtonStylesComponent } from './button-styles/button-styles.component';
@@ -16,7 +16,9 @@ import { GridInTabLayoutComponent } from './grid-in-tab-layout/grid-in-tab-layou
 import { InputsCombosComponent } from './inputs-combos/inputs-combos.component';
 import { ListComponent } from './list/list.component';
 import { NavigationBarComponent } from './navigation-bar/navigation-bar.component';
+import { RatingComponent } from './rating/rating.component';
 import { SpaceBetweenComponent } from './space-between/space-between.component';
+import { TextLinksComponent } from './text-links/text-links.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +34,9 @@ import { SpaceBetweenComponent } from './space-between/space-between.component';
     InputsCombosComponent,
     ListComponent,
     NavigationBarComponent,
-    SpaceBetweenComponent
+    RatingComponent,
+    SpaceBetweenComponent,
+    TextLinksComponent
   ],
   imports: [
     BrowserModule,
@@ -57,6 +61,7 @@ import { SpaceBetweenComponent } from './space-between/space-between.component';
     IgxTabsModule,
     IgxSelectModule,
     IgxNavbarModule,
+    IgcFormsModule,
     IgxNavigationDrawerModule
   ],
   providers: [],

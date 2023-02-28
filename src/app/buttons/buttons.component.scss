@@ -69,6 +69,7 @@
   min-height: 50px;
 }
 .button {
+  background-color: hsla(var(--igx-primary-500));
   height: max-content;
   min-width: min-content;
   flex-shrink: 0;
@@ -79,22 +80,27 @@
   min-width: min-content;
   flex-shrink: 0;
 }
+.button_2 {
+  height: max-content;
+  min-width: min-content;
+  flex-shrink: 0;
+}
 .user-input {
   height: max-content;
   min-width: min-content;
 }
-.button_2 {
+.button_3 {
   width: max-content;
   height: max-content;
 }
-.button_3 {
+.button_4 {
   color: hsla(var(--igx-surface-500));
   background-color: #6C429D;
   height: max-content;
   min-width: min-content;
   flex-shrink: 0;
 }
-.button_4 {
+.button_5 {
   color: #6C429D;
   height: max-content;
   min-width: min-content;
