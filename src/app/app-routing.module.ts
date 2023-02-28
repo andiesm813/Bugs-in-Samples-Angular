@@ -15,7 +15,9 @@ import { GridInTabLayoutComponent } from './grid-in-tab-layout/grid-in-tab-layou
 import { InputsCombosComponent } from './inputs-combos/inputs-combos.component';
 import { ListComponent } from './list/list.component';
 import { NavigationBarComponent } from './navigation-bar/navigation-bar.component';
+import { RatingComponent } from './rating/rating.component';
 import { SpaceBetweenComponent } from './space-between/space-between.component';
+import { TextLinksComponent } from './text-links/text-links.component';
 
 export const routes: Routes = [
   { path: '', redirectTo: 'buttons', pathMatch: 'full' },
@@ -31,7 +33,9 @@ export const routes: Routes = [
   { path: 'inputs-combos', component: InputsCombosComponent, data: { text: 'Inputs & Combos' } },
   { path: 'list', component: ListComponent, data: { text: 'List' } },
   { path: 'navigation-bar', component: NavigationBarComponent, data: { text: 'Navigation Bar' } },
+  { path: 'rating', component: RatingComponent, data: { text: 'Rating' } },
   { path: 'space-between', component: SpaceBetweenComponent, data: { text: 'Space Between' } },
+  { path: 'text-links', component: TextLinksComponent, data: { text: 'Text & Links' } },
   { path: '**', component: PageNotFoundComponent } // must always be last
 ];
 
