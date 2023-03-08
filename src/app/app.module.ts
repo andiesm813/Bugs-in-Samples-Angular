@@ -4,7 +4,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ButtonsComponent } from './buttons/buttons.component';
-import { IgxButtonModule, IgxRippleModule, IgxIconModule, IgxToggleModule, IgxDropDownModule, IgxListModule, IgxAvatarModule, IgxCardModule, IgxDialogModule, IgxButtonGroupModule, IgxBadgeModule, IgxChipsModule, IgxInputGroupModule, IgxGridModule, IgxTabsModule, IgxSelectModule, IgxNavbarModule, IgcFormsModule, IgxNavigationDrawerModule } from '@infragistics/igniteui-angular';
+import { IgxButtonModule, IgxRippleModule, IgxIconModule, IgxToggleModule, IgxDropDownModule, IgxListModule, IgxAvatarModule, IgxCardModule, IgxDialogModule, IgxButtonGroupModule, IgxBadgeModule, IgxChipsModule, IgxInputGroupModule, IgxGridModule, IgxTabsModule, IgxSelectModule, IgxDatePickerModule, IgxNavbarModule, IgcFormsModule, IgxNavigationDrawerModule } from '@infragistics/igniteui-angular';
 import { FormsModule } from '@angular/forms';
 import { ButtonGroupComponent } from './button-group/button-group.component';
 import { ButtonStylesComponent } from './button-styles/button-styles.component';
@@ -60,6 +60,7 @@ import { TextLinksComponent } from './text-links/text-links.component';
     IgxGridModule,
     IgxTabsModule,
     IgxSelectModule,
+    IgxDatePickerModule,
     IgxNavbarModule,
     IgcFormsModule,
     IgxNavigationDrawerModule
