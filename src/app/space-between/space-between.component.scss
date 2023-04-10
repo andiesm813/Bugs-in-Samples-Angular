@@ -52,7 +52,6 @@
 }
 .button {
   height: max-content;
-  min-width: min-content;
   flex-shrink: 0;
 }
 .dropdown {
@@ -63,12 +62,12 @@
   min-width: min-content;
 }
 .h6 {
-  color: hsla(var(--igx-surface-500));
+  color: hsla(var(--ig-surface-500));
   height: max-content;
   min-width: min-content;
 }
 .text {
-  color: hsla(var(--igx-grays-300));
+  color: hsla(var(--ig-gray-300));
   height: max-content;
   min-width: min-content;
 }

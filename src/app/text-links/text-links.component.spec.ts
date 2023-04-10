@@ -11,9 +11,7 @@ describe('TextLinksComponent', () => {
       declarations: [ TextLinksComponent ]
     })
     .compileComponents();
-  });
 
-  beforeEach(() => {
     fixture = TestBed.createComponent(TextLinksComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();

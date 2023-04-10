@@ -2,6 +2,7 @@ import { ComponentFixture, TestBed } from '@angular/core/testing';
 import { FormsModule } from '@angular/forms';
 import { NoopAnimationsModule } from '@angular/platform-browser/animations';
 
+import { IgxGridModule, IgxTabsModule, IgxIconModule, IgxGridModule, IgxIconModule } from '@infragistics/igniteui-angular';
 import { GridInTabLayoutComponent } from './grid-in-tab-layout.component';
 
 describe('GridInTabLayoutComponent', () => {
@@ -11,7 +12,7 @@ describe('GridInTabLayoutComponent', () => {
   beforeEach(async () => {
     await TestBed.configureTestingModule({
       declarations: [ GridInTabLayoutComponent ],
-      imports: [ NoopAnimationsModule, FormsModule ]
+      imports: [ NoopAnimationsModule, FormsModule, IgxGridModule, IgxTabsModule, IgxIconModule, IgxGridModule, IgxIconModule ]
     })
     .compileComponents();
   });

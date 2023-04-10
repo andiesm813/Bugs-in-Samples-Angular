@@ -1,7 +1,7 @@
 <div class="column-layout container">
   <div class="row-layout group">
     <div class="row-layout group_1">
-      <p class="igx-typography__subtitle-2 text">
+      <p class="ig-typography__subtitle-2 text">
         Box
       </p>
     </div>
@@ -40,7 +40,7 @@
   </div>
   <div class="row-layout group">
     <div class="row-layout group_1">
-      <p class="igx-typography__subtitle-2 text">
+      <p class="ig-typography__subtitle-2 text">
         Outline
       </p>
     </div>
@@ -78,12 +78,12 @@
     </igx-input-group>
   </div>
   <div class="column-layout group_2">
-    <p class="igx-typography__subtitle-2 text">
+    <p class="ig-typography__subtitle-2 text">
       SELECT COMPONENT
     </p>
     <div class="row-layout group_3">
       <div class="row-layout group_1">
-        <p class="igx-typography__subtitle-2 text">
+        <p class="ig-typography__subtitle-2 text">
           Box
         </p>
       </div>
@@ -150,7 +150,7 @@
     </div>
     <div class="row-layout group_3">
       <div class="row-layout group_1">
-        <p class="igx-typography__subtitle-2 text">
+        <p class="ig-typography__subtitle-2 text">
           Outline
         </p>
       </div>
@@ -217,50 +217,50 @@
     </div>
   </div>
   <div class="column-layout group_2">
-    <p class="igx-typography__subtitle-2 text">
+    <p class="ig-typography__subtitle-2 text">
       DATE PICKER
     </p>
     <div class="row-layout group_3">
       <div class="row-layout group_1">
-        <p class="igx-typography__subtitle-2 text">
+        <p class="ig-typography__subtitle-2 text">
           Box
         </p>
       </div>
-      <igx-date-picker type="box" mode="dialog" class="date-picker">
+      <igx-date-picker type="box" mode="dialog" [(ngModel)]="date" class="date-picker">
         <label igxLabel>Date</label>
       </igx-date-picker>
-      <igx-date-picker [value]="date" type="box" class="date-picker">
+      <igx-date-picker [(ngModel)]="date1" type="box" class="date-picker">
         <label igxLabel>Date</label>
       </igx-date-picker>
-      <igx-date-picker [value]="date" type="box" mode="dialog" class="date-picker">
+      <igx-date-picker [(ngModel)]="date1" type="box" mode="dialog" class="date-picker">
         <label igxLabel>Date</label>
       </igx-date-picker>
-      <igx-date-picker [disabled]="true" type="box" mode="dialog" class="date-picker">
+      <igx-date-picker [disabled]="true" type="box" mode="dialog" [(ngModel)]="date" class="date-picker">
         <label igxLabel>Date</label>
       </igx-date-picker>
-      <igx-date-picker [value]="date" [disabled]="true" type="box" mode="dialog" class="date-picker">
+      <igx-date-picker [(ngModel)]="date1" [disabled]="true" type="box" mode="dialog" class="date-picker">
         <label igxLabel>Date</label>
       </igx-date-picker>
     </div>
     <div class="row-layout group_3">
       <div class="row-layout group_1">
-        <p class="igx-typography__subtitle-2 text">
+        <p class="ig-typography__subtitle-2 text">
           Outline
         </p>
       </div>
-      <igx-date-picker type="border" mode="dialog" class="date-picker">
+      <igx-date-picker type="border" mode="dialog" [(ngModel)]="date" class="date-picker">
         <label igxLabel>Date</label>
       </igx-date-picker>
-      <igx-date-picker [value]="date" type="border" class="date-picker">
+      <igx-date-picker [(ngModel)]="date1" type="border" class="date-picker">
         <label igxLabel>Date</label>
       </igx-date-picker>
-      <igx-date-picker [value]="date" type="border" mode="dialog" class="date-picker">
+      <igx-date-picker [(ngModel)]="date1" type="border" mode="dialog" class="date-picker">
         <label igxLabel>Date</label>
       </igx-date-picker>
-      <igx-date-picker [disabled]="true" type="border" mode="dialog" class="date-picker">
+      <igx-date-picker [disabled]="true" type="border" mode="dialog" [(ngModel)]="date" class="date-picker">
         <label igxLabel>Date</label>
       </igx-date-picker>
-      <igx-date-picker [value]="date" [disabled]="true" type="border" mode="dialog" class="date-picker">
+      <igx-date-picker [(ngModel)]="date1" [disabled]="true" type="border" mode="dialog" class="date-picker">
         <label igxLabel>Date</label>
       </igx-date-picker>
     </div>
