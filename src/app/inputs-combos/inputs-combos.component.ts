@@ -8,5 +8,6 @@ import { Component } from '@angular/core';
 export class InputsCombosComponent {
   public value = 'With content';
   public value1 = 'Disabled';
-  public date = new Date('2023-03-08T00:00');
+  public date: any;
+  public date1 = new Date('2023-03-08T00:00');
 }
